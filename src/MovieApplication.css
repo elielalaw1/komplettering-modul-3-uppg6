@@ -1,0 +1,40 @@
+/* src/Movies.css */
+.movie-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .movie-title {
+    flex: 1; /* Tar upp allt tillgängligt utrymme på vänster sida */
+    font-size: 14px; /* Gör filmnamnet mindre */
+  }
+  
+  .stars {
+    display: flex;
+    gap: 5px; /* Avstånd mellan stjärnorna */
+    margin-right: 10px; /* Litet avstånd mellan stjärnorna och knappen */
+  }
+  
+  .star-icon {
+    width: 20px; /* Justera storlek på stjärnorna */
+    height: 20px;
+  }
+  
+  .remove-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .remove-icon {
+    width: 20px; /* Justera storlek på ikonen */
+    height: 20px;
+  }
+ 
